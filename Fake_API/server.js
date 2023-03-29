@@ -4,6 +4,7 @@ const app = express(); //inicializa todos los metodos de express
 
 app.use(express.json()); //express usara json durante todo su desarrollo
 
+//clase usuario
 class Usuario{
     constructor(){
         //this._id = faker.datatype.uuid();
@@ -15,6 +16,7 @@ class Usuario{
     }
 }
 
+//clase empresa
 class Empresa {
     constructor(){
         this._id =faker.datatype.uuid();
